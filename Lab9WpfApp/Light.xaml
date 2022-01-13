@@ -1,0 +1,34 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style x:Key="WindowStyle">
+        <Setter Property="ItemsControl.Background" Value="White"/>
+    </Style>
+    <Style x:Key="ToolBarStyle" BasedOn="{StaticResource WindowStyle}">
+        <Setter Property="ToolBar.Background" Value="White"/>
+        <Setter Property="ToolBar.Padding" Value="5"/>
+        <Setter Property="ToolBar.Margin" Value="5"/>
+    </Style>
+    <Style x:Key="TextBoxStyle" BasedOn="{StaticResource WindowStyle}">
+        <Setter Property="ToolBar.Foreground" Value="Black"/>
+        <Setter Property="ToolBar.Padding" Value="5"/>
+        <Setter Property="ToolBar.Margin" Value="5"/>
+    </Style>
+    <Style x:Key="ToolBarTrayStyle" BasedOn="{StaticResource WindowStyle}">
+        <Setter Property="ToolBarTray.Background" Value="White"/>
+        <Setter Property="ToolBarTray.Margin" Value="5"/>
+    </Style>
+    <Style x:Key="ComboBoxStyle" BasedOn="{StaticResource WindowStyle}">
+        <Setter Property="ComboBox.Background" Value="White"/>
+        <Setter Property="ComboBox.Foreground" Value="Black"/>
+        <Setter Property="ComboBox.Margin" Value="5"/>
+    </Style>
+    <Style x:Key="MenuStyle" BasedOn="{StaticResource WindowStyle}">
+        <Setter Property="Menu.Background" Value="White"/>
+        <Setter Property="Menu.Foreground" Value="Black"/>
+    </Style>
+    <Style x:Key="MenuItemStyle" BasedOn="{StaticResource WindowStyle}">
+        <Setter Property="MenuItem.Background" Value="White"/>
+        <Setter Property="MenuItem.Foreground" Value="Black"/>
+    </Style>
+
+</ResourceDictionary>
