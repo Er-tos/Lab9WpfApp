@@ -34,10 +34,10 @@ namespace Lab9WpfApp
         private void ThemeChange(object sender, SelectionChangedEventArgs e)
         {
             int styleIndex = styleBox.SelectedIndex;
-            Uri uri = new Uri("LightTheme.xaml", UriKind.Relative);
+            Uri uri = new Uri("Light.xaml", UriKind.Relative);
             if (styleIndex == 1)
             {
-                uri = new Uri("DarkTheme.xaml", UriKind.Relative);
+                uri = new Uri("Dark.xaml", UriKind.Relative);
             }
 
             ResourceDictionary resource = Application.LoadComponent(uri) as ResourceDictionary;
